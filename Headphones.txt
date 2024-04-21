@@ -1,0 +1,11 @@
+ID	Наименование	Бренд	Цвет	Цена за 1 шт., руб	Оценка покупателей
+1	SVEN AP-010MV	SVEN	серебристый	499	3,4
+2	Defender Warhead G-120	Defender	оранжевый	799	4,1
+3	Gembird MHS-G220	Gembird	черный	999	3
+4	SVEN AP-670MV	SVEN	черный	1199	3,4
+5	Qumo Party Cat	Qumo	черный	1499	3,6
+6	 Jet.A GHP-100	DEXP	желтый	1599	4,1
+7	Logitech H111	Logitech	серый	1799	4,6
+8	DEXP GH-400 Armor	DEXP	серый	1999	4,2
+9	JBL TUNE 560BT	Logitech	синий	2499	4,6
+10	SE-M531	Logitech	черный	2799	4,2
