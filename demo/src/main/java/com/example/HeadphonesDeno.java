@@ -36,7 +36,7 @@ public class HeadphonesDeno {
         Optional<Headphones> headphonesWithLowestScore=headphones.stream()
             .sorted(Comparator.comparing(Headphones::getScore))
             .findFirst();
-        System.out.println("\nНаушники с наименьшей оценкой: "+headphonesWithLowestScore.toString().replace("Optional[", "").replace("]", ""));
+        System.out.println("\nНаушники с наименьшей оценкой: "+headphonesWithLowestScore.get());
 
         List<Headphones> anyExceptBlack = headphones.stream()
             .filter(x -> !x.getColor().equals("черный"))
@@ -63,7 +63,7 @@ public class HeadphonesDeno {
 
         Optional<Headphones> cheapestHeadphones = headphones.stream()
             .collect(minBy(comparing(Headphones::getPrice)));
-        System.out.println("\nСамые дешевые наушники: "+cheapestHeadphones.toString().replace("Optional[", "").replace("]", ""));
+        System.out.println("\nСамые дешевые наушники: "+cheapestHeadphones.get());
 
         Map <Boolean,List<Headphones>> headphonesDividedByScore = headphones.stream()
             .collect(partitioningBy(x->x.getScore()>=4.5));
